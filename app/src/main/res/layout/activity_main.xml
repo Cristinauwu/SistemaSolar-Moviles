@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/sol"
+        android:layout_width="120dp"
+        android:layout_height="105dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_sol" />
+
+    <ImageView
+        android:id="@+id/mercurio"
+        android:layout_width="51dp"
+        android:layout_height="42dp"
+        app:layout_constraintBottom_toTopOf="@+id/sol"
+        app:layout_constraintCircle="@id/sol"
+        app:layout_constraintCircleAngle="24"
+        app:layout_constraintCircleRadius="84dp"
+        app:layout_constraintEnd_toEndOf="@+id/sol"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/sol"
+        app:srcCompat="@drawable/ic_mercurio" />
+
+    <ImageView
+        android:id="@+id/venus"
+        android:layout_width="67dp"
+        android:layout_height="57dp"
+        app:layout_constraintBottom_toTopOf="@+id/sol"
+        app:layout_constraintCircle="@id/sol"
+        app:layout_constraintCircleAngle="24"
+        app:layout_constraintCircleRadius="140dp"
+        app:layout_constraintEnd_toEndOf="@+id/sol"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_venus" />
+
+    <ImageView
+        android:id="@+id/tierra"
+        android:layout_width="65dp"
+        android:layout_height="66dp"
+        app:layout_constraintBottom_toTopOf="@+id/sol"
+        app:layout_constraintCircle="@id/sol"
+        app:layout_constraintCircleAngle="24"
+        app:layout_constraintCircleRadius="206dp"
+        app:layout_constraintEnd_toEndOf="@+id/sol"
+        app:layout_constraintStart_toStartOf="@+id/sol"
+        app:srcCompat="@drawable/ic_planeta_tierra" />
+
+    <ImageView
+        android:id="@+id/marte"
+        android:layout_width="43dp"
+        android:layout_height="47dp"
+        app:layout_constraintBottom_toTopOf="@+id/sol"
+        app:layout_constraintCircle="@id/sol"
+        app:layout_constraintCircleAngle="24"
+        app:layout_constraintCircleRadius="268dp"
+        app:layout_constraintEnd_toEndOf="@+id/sol"
+        app:layout_constraintStart_toStartOf="@+id/sol"
+        app:srcCompat="@drawable/ic_marte" />
+
+    <ImageView
+        android:id="@+id/jupiter"
+        android:layout_width="88dp"
+        android:layout_height="68dp"
+        app:layout_constraintBottom_toTopOf="@+id/sol"
+        app:layout_constraintCircle="@id/sol"
+        app:layout_constraintCircleAngle="24"
+        app:layout_constraintCircleRadius="330dp"
+        app:layout_constraintEnd_toEndOf="@+id/sol"
+        app:layout_constraintStart_toStartOf="@+id/sol"
+        app:srcCompat="@drawable/ic_jupiter" />
+
+    <ImageView
+        android:id="@+id/saturno"
+        android:layout_width="113dp"
+        android:layout_height="81dp"
+        app:layout_constraintBottom_toTopOf="@+id/sol"
+        app:layout_constraintCircle="@id/sol"
+        app:layout_constraintCircleAngle="24"
+        app:layout_constraintCircleRadius="415dp"
+        app:layout_constraintEnd_toEndOf="@+id/sol"
+        app:layout_constraintStart_toStartOf="@+id/sol"
+        app:srcCompat="@drawable/ic_saturno" />
+
+    <ImageView
+        android:id="@+id/urano"
+        android:layout_width="72dp"
+        android:layout_height="68dp"
+        app:layout_constraintBottom_toTopOf="@+id/sol"
+        app:layout_constraintCircle="@id/sol"
+        app:layout_constraintCircleAngle="24"
+        app:layout_constraintCircleRadius="504dp"
+        app:layout_constraintEnd_toEndOf="@+id/sol"
+        app:layout_constraintStart_toStartOf="@+id/sol"
+        app:srcCompat="@drawable/ic_urano" />
+
+    <ImageView
+        android:id="@+id/neptuno"
+        android:layout_width="61dp"
+        android:layout_height="67dp"
+        android:layout_marginBottom="520dp"
+        app:layout_constraintBottom_toTopOf="@+id/sol"
+        app:layout_constraintCircle="@id/sol"
+        app:layout_constraintCircleAngle="24"
+        app:layout_constraintCircleRadius="570dp"
+        app:layout_constraintEnd_toEndOf="@+id/sol"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/sol"
+        app:srcCompat="@drawable/ic_neptuno" />
+</androidx.constraintlayout.widget.ConstraintLayout>
